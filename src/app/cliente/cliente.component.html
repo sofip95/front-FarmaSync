@@ -1,0 +1,29 @@
+<div class="page-container">
+  <div class="sidebar">
+    <h3>Agente Cliente</h3>
+    <div class="chat-input">
+      <textarea placeholder="Lorem ipsum dolor sit amet consectetur adipiscing elit."></textarea>
+    </div>
+    <div class="chat-buttons">
+      <button class="icon-btn">📎</button>
+      <button class="icon-btn">📷</button>
+      <button>▶</button>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="container">
+      <h2>Analgésicos disponibles</h2>
+
+      <div class="productos-grid">
+        <div class="producto" *ngFor="let item of productos">
+          <div class="producto-image">
+          </div>
+          <h3>{{ item.nombre }}</h3>
+          <p class="precio"><strong>${{ item.precio }}</strong></p>
+          <p class="descripcion">{{ item.descripcion }}</p>
+          <button (click)="agregarCarrito(item)">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

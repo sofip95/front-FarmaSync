@@ -1,0 +1,97 @@
+
+.chat-section {
+  background: #006D71;
+  padding: 20px;
+  color: white;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  width: 70%;
+  border-radius: 12px;
+  margin: 0 auto;
+
+}
+
+.chat-section h3 {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+
+.chat-input {
+  display: flex;
+  background: E8FDFF;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #333;
+}
+
+.chat-input button {
+  background: #01B6BC;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #CCEFEF;
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-size: 26px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #E8FDFF;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+thead {
+  background: #01B6BC;
+  color: white;
+  text-align: left;
+}
+th, td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+tbody tr:hover {
+  background: #f5faff;
+}
+button {
+  background: #007FFF;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: #0256ab;
+}
